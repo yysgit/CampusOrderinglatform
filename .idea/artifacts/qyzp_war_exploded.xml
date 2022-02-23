@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="qyzp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/qyzp_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="qyzp" />
+        </element>
+        <element id="directory" name="lib" />
+      </element>
+      <element id="javaee-facet-resources" facet="qyzp/web/Web" />
+    </root>
+  </artifact>
+</component>
