@@ -6,7 +6,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <script language=JavaScript>
 	function logout() {
-		if (confirm("您确定要退出 网上求职招聘平台吗？")) {
+		if (confirm("您确定要退出 校园外卖平台吗？")) {
 			top.location = "<%=path%>/user_loginout.action";
 			return true;
 		}
@@ -57,7 +57,11 @@
 <div id="header">
 	<div class="home-inner">
 		<div class="logo">
-			<a href="<%=path%>/index.action" >
+			<a href="<%=path%>/index.action" style="
+    color: #00d7c6;
+    font-size: 21px;
+    line-height: 35px;
+" >校园外卖
 			</a>
 		</div>
 		<div class="nav">

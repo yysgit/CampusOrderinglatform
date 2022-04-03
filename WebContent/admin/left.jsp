@@ -144,7 +144,7 @@
 					</c:if>
 					
 					<c:if test="${sessionScope.utype==1}">
-					<!-- 招聘员工菜单 -->
+
 					<div class="panel panel-inner">
 						<div class="panel-heading panel-heading-self" role="tab" id="headingOne">
 							<h4 class="panel-title">

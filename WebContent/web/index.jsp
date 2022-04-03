@@ -11,7 +11,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="Content-language" content="zh-CN">
-		<title>网上求职招聘</title>
+		<title>校园外卖</title>
 		<link href="<%=path%>/favicon.ico" type="image/x-icon"
 			rel="shortcut icon" />
 		<link rel="stylesheet" href="<%=path%>/web/css/main.css" />
@@ -25,17 +25,7 @@
 			<!-- header begin -->
 			<jsp:include page="page/head.jsp" />
 			<!-- header end -->
-			<div class="fast-register-box top-sign-box">
-				<div class="inner home-inner">
-					<img
-						src="<%=path%>/web/images/fast-reg.png"
-						class="icon-tip"/>
-					<div class="step-form">
-                        <img src="<%=path%>/web/images/fast-reg-text.png">
-                        <a href="<%=path%>/user_toUpdate_web.action" class="btn btn-dialog-upload btn-to-upload" >制作你的简历</a>
-                	</div>
-				</div>
-			</div>
+
 			<div class="column-search-panel">
 				<div class="inner home-inner">
 					<div class="search-box">
@@ -45,7 +35,7 @@
 								<div class="search-form-con">
 									<p class="ipt-wrap">
 										<input type="text" name="name" class="ipt-search"
-											maxlength="50" autocomplete="off" placeholder="搜索职位" />
+											maxlength="50" autocomplete="off" placeholder="搜索美食" />
 									</p>
 								</div>
 
@@ -56,9 +46,9 @@
 							</form>
 						</div>
 						<div class="search-hot">
-							<b>热门职位:</b>
-							<a href="<%=path%>/job_list_web.action?catelogid=14"><b>JAVA开发</b></a>
-							<a href="<%=path%>/job_list_web.action?catelogid=13">UI设计师</a>
+							<b>热门店铺:</b>
+							<a href="<%=path%>/job_list_web.action?catelogid=14"><b>小杨生煎</b></a>
+							<a href="<%=path%>/job_list_web.action?catelogid=13">沙县小吃</a>
 
 						</div>
 					</div>
@@ -67,11 +57,11 @@
 			<div id="main" class="inner home-inner">
 				<div class="home-box">
 					<div class="home-sider">
-						<!-- 左侧职位选择 -->
+						<!--  -->
 						<div class="job-menu menu-sub">
 							<div class="show-all" style="display: block;border-bottom: dashed 1px #ecedef; border-top: 0;
     												margin-top: -10px; padding-left: 0;margin-bottom: 10px;" >
-								全部职位
+								全部美食
 							</div>
 							<ul class="text">
 								<c:forEach items="${sessionScope.catelogList}" var="info" varStatus="var">	
@@ -128,7 +118,7 @@
 						</div>
 					</div>
 					<div class="common-tab-box merge-city-job" >
-						<div class="box-title">热招职位</div>
+						<div class="box-title">推荐美食</div>
 						<ul class="cur">
 							<c:forEach items="${list}" var="job" varStatus="status">
 							<li>

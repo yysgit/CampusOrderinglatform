@@ -45,7 +45,7 @@
 			<div class="mainContent">
 				<div class="registerbox">
 					
-					<h1>会员注册</h1>
+					<h1>用户注册</h1>
 					
 					
 					

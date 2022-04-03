@@ -26,6 +26,7 @@ import com.service.JobService;
 import com.service.OfferService;
 import com.service.TestService;
 import com.util.PageBean;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * 记录榜Controller业务控制类

@@ -10,7 +10,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-		<title>网上求职招聘</title>
+		<title>校园外卖</title>
 		<link href="<%=path%>/favicon.ico" type="image/x-icon"
 			rel="shortcut icon" />
 

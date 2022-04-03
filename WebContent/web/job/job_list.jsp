@@ -14,7 +14,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="Content-language" content="zh-CN">
 
-		<title>企业招聘</title>
+		<title>校园外卖</title>
 		<link href="<%=path%>/favicon.ico" type="image/x-icon" rel="shortcut icon" />
 		
 		<link rel="stylesheet" href="<%=path%>/web/css1/common.css" />
@@ -67,13 +67,13 @@
 		<div class="search__area">
 			<div style="width: 1000px; margin: 0 auto;">
 				<a>首页 </a> &gt;
-				<a>招聘列表</a>
+				<a>美食列表</a>
 			</div>
 			<div class="search w1150" id="search">
 				
 				<div class="search__wrap" style="position: relative;">
 					<input class="search__input fl" type="text" name="name"
-						placeholder="请输入招聘岗位" value="${name}" >
+						placeholder="请输入美食名称" value="${name}" >
 					
 					<button class="btn btn-search fl" style="font-size:14px" type="">
 						搜索
